@@ -12,6 +12,7 @@ return [
     | and production domains which access your API via a frontend SPA.
     |
     */
+    'prefix' => 'api',
 
     'stateful' => explode(',', env('SANCTUM_STATEFUL_DOMAINS', sprintf(
         '%s%s',
